@@ -1,0 +1,9 @@
+$sqlite3 Tarefas.db
+
+CREATE TABLE Tarefas (
+    Id        INTEGER       PRIMARY KEY AUTOINCREMENT
+                            NOT NULL,
+    Titulo    VARCHAR (50)  NOT NULL,
+    Descricao VARCHAR (200),
+    Data      DATE
+);
