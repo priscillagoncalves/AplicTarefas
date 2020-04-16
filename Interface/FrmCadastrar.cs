@@ -33,7 +33,7 @@ namespace Interface
             }
             else if (acaoNaTela.Equals(AcaoNaTela.Consultar))
             {
-                this.Text = ":: Consultar Cliente ::";
+                this.Text = ":: Consultar Tarefa ::";
 
                 textBoxId.Text = tarefa.Id.ToString();
                 textBoxTitulo.Text = tarefa.Titulo;
